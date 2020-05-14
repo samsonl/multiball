@@ -1,6 +1,6 @@
 node() {
   echo "OK Master"
-  echo "BN ${BRANCH_NAME} CH:${CHANGE_ID}"
+  echo "BN ${env.BRANCH_NAME} CH:${env.CHANGE_ID}"
   
  }
   
