@@ -1,6 +1,5 @@
 node() {
-  echo "OK Master"
-  echo "BN ${env.BRANCH_NAME} CH:${env.CHANGE_ID}"
-  
- }
-  
+ echo "OK"
+ echo "BN ${env.BRANCH_NAME} CH:${env.CHANGE_ID}"
+
+}
